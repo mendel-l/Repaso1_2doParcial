@@ -1,0 +1,41 @@
+[
+  {
+    "NombreU": "Mesoamericana",
+    
+    "Sede": null,
+    "Alumnos": [
+      {
+        "NoCarne": "C1",
+        "Notas": [
+          {
+            "Curso": "Curso1",
+            "Punteo": 80
+          }
+        ],
+        "FirstName": "nombre1",
+        "LastName": "apellido1",
+        "Address": "zona 1",
+        "DateOfBirth": "0001-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "NombreU": "Mesoamericana",
+    "Sede": null,
+    "Alumnos": [
+      {
+        "NoCarne": "C2",
+        "Notas": [
+          {
+            "Curso": "Curso1",
+            "Punteo": 50
+          }
+        ],
+        "FirstName": "nombre2",
+        "LastName": "apellido2",
+        "Address": "zona 1",
+        "DateOfBirth": "0001-01-01T00:00:00"
+      }
+    ]
+  }
+]

@@ -33,11 +33,23 @@
                 <asp:TextBox ID="TextBoxLastName" runat="server"></asp:TextBox>
             </p>
             <p>
+                Direccion
+                <asp:TextBox ID="TextBoxAddress" runat="server"></asp:TextBox>
+            </p>
+            <p>
+                Fecha Nacimiento
+                <asp:Calendar ID="CalendarBirth" runat="server"></asp:Calendar>
+            </p>
+            <p>
                 Carné&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TextBoxId" runat="server"></asp:TextBox>
             </p>
             <p>
-                &nbsp;</p>
+                su esdad es:
+                <asp:Label ID="LabelAge" runat="server" Text="LabelEdad"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="ButtonCalculateAge" runat="server" OnClick="ButtonCalculateAge_Click" Text="Calcular Edad" />
+            </p>
             <p>
                 Notas</p>
             <p>
@@ -67,106 +79,86 @@
         <div class="col-md-4">
             <h2>Ingreso De Catedraticos</h2>
             <p>
-                Universidad</p>
-            <p>
-                <asp:DropDownList ID="DropDownListUni0" runat="server">
-                    <asp:ListItem>Mesoamericana</asp:ListItem>
-                    <asp:ListItem>Lndivar</asp:ListItem>
-                    <asp:ListItem>San Carlos</asp:ListItem>
-                </asp:DropDownList>
-            </p>
-            <p>
-                &nbsp;</p>
-            <p>
                 Catedratico</p>
             <p>
-                Nombre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxName0" runat="server"></asp:TextBox>
+                Nombre&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TextBoxName2" runat="server"></asp:TextBox>
             </p>
             <p>
-                Apellido&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxLastName0" runat="server"></asp:TextBox>
+                Apellido&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TextBoxLastName2" runat="server"></asp:TextBox>
+            </p>
+            <p>
+                Direccion
+                <asp:TextBox ID="TextBoxAdress0" runat="server"></asp:TextBox>
+            </p>
+            <p>
+                Fecha Nacimiento
+                <asp:Calendar ID="CalendarBirth0" runat="server"></asp:Calendar>
             </p>
             <p>
                 ID profesor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="TextBoxId0" runat="server"></asp:TextBox>
             </p>
             <p>
-                &nbsp;</p>
-            <p>
-                Notas</p>
-            <p>
-                Curso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxCourse0" runat="server"></asp:TextBox>
+                su esdad es:
+                <asp:Label ID="LabelAgeProf" runat="server" Text="LabelEdad"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="ButtonCalcularEdadProf" runat="server" OnClick="ButtonCalcularEdadProf_Click" Text="Calcular Edad" Width="152px" />
             </p>
             <p>
-                Punteo&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxPTS0" runat="server"></asp:TextBox>
+                Titulo&nbsp;
+                <asp:TextBox ID="TextBoxTitulo" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="Button4" runat="server" Text="Ingresar Notas" Width="110px" />
-            </p>
-            <asp:GridView ID="GridView3" runat="server">
-            </asp:GridView>
+                </p>
             <p>
-                &nbsp;</p>
-            <p>
-                &nbsp;</p>
-            <p>
-                <asp:Button ID="Button5" runat="server" Text="Ingresar Universidad" Width="195px" />
-            </p>
-            <p>
-                <asp:Button ID="Button6" runat="server" Text="Ingresar Datos Alumno" Width="195px" />
+                <asp:Button ID="Button6" runat="server" Text="Ingresar Datos Catedratico" Width="195px" OnClick="Button6_Click" />
             </p>
             <p>&nbsp;</p>
         </div>
         <div class="col-md-4">
             <h2>Ingreso De Personal</h2>
             <p>
-                Universidad</p>
-            <p>
-                <asp:DropDownList ID="DropDownListUni1" runat="server">
-                    <asp:ListItem>Mesoamericana</asp:ListItem>
-                    <asp:ListItem>Lndivar</asp:ListItem>
-                    <asp:ListItem>San Carlos</asp:ListItem>
-                </asp:DropDownList>
-            </p>
-            <p>
-                Catedratico</p>
+                Personal</p>
             <p>
                 Nombre&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxName1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBoxName3" runat="server"></asp:TextBox>
             </p>
             <p>
                 Apellido&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxLastName1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBoxLastName3" runat="server"></asp:TextBox>
             </p>
             <p>
-                Carné&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxId1" runat="server"></asp:TextBox>
+                Direccion
+                <asp:TextBox ID="TextBoxAdress1" runat="server"></asp:TextBox>
             </p>
             <p>
-                Notas</p>
-            <p>
-                Curso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxCourse1" runat="server"></asp:TextBox>
+                Profecion
+                <asp:TextBox ID="TextBoxProfecion" runat="server"></asp:TextBox>
             </p>
             <p>
-                Punteo&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBoxPTS1" runat="server"></asp:TextBox>
+                Fecha Nacimiento
+                <asp:Calendar ID="CalendarBirth1" runat="server"></asp:Calendar>
+            </p>
+            <p>
+                <span style="color: rgb(55, 58, 60); font-family: Lato; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">IGSS</span>&nbsp;&nbsp;&nbsp;
+                <asp:TextBox ID="TextBoxIGSS" runat="server"></asp:TextBox>
+            </p>
+            <p>
+                su esdad es:
+                <asp:Label ID="LabelAge1" runat="server" Text="LabelEdad"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="ButtonCalcularDateAmd" runat="server" OnClick="ButtonCalcularDateAmd_Click" Text="Calcular Edad" />
+            </p>
+            <p>
+                Inicio labores&nbsp;&nbsp;&nbsp; <asp:Calendar ID="CalendarStart" runat="server"></asp:Calendar>
+            </p>
+            <p>
+                fin labores&nbsp;&nbsp; <asp:Calendar ID="CalendarEnd" runat="server"></asp:Calendar>
 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="Button7" runat="server" Text="Ingresar Notas" Width="110px" />
-            </p>
-            <asp:GridView ID="GridView4" runat="server">
-            </asp:GridView>
+                </p>
             <p>
-                &nbsp;</p>
-            <p>
-                &nbsp;</p>
-            <p>
-                <asp:Button ID="Button8" runat="server" Text="Ingresar Universidad" Width="195px" />
-            </p>
-            <p>
-                <asp:Button ID="Button9" runat="server" Text="Ingresar Datos Alumno" Width="195px" />
+                <asp:Button ID="Button9" runat="server" Text="Ingresar Datos Personal" Width="195px" OnClick="Button9_Click" />
             </p>
             <p>&nbsp;</p>
         </div>

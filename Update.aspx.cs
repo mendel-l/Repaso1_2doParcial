@@ -12,7 +12,12 @@ namespace Repaso1_2doParcial
     public partial class Update : System.Web.UI.Page
     {
         static List<Universidad> universidades = new List<Universidad>();
+
+        static List<Alumno> alumnos = new List<Alumno>();
+        static List<Profesor> profesores = new List<Profesor>();
+        static List<PersonalAdm> personaladm = new List<PersonalAdm>();
         string SearchCarne;
+        string ID;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -56,7 +61,9 @@ namespace Repaso1_2doParcial
         }
         protected void ButtonModifyData_Click(object sender, EventArgs e)
         {
-            foreach(var u in universidades)
+            SearchCarne = TextBoxSearch.Text;
+
+            foreach (var u in universidades)
             {
                 int Edit = u.Alumnos.FindIndex(c => c.NoCarne == SearchCarne);
 

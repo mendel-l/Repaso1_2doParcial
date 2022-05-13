@@ -42,6 +42,24 @@ namespace Repaso1_2doParcial
         protected global::System.Web.UI.WebControls.TextBox TextBoxLastName;
 
         /// <summary>
+        /// Control TextBoxAddress.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxAddress;
+
+        /// <summary>
+        /// Control CalendarBirth.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar CalendarBirth;
+
+        /// <summary>
         /// Control TextBoxId.
         /// </summary>
         /// <remarks>
@@ -49,6 +67,24 @@ namespace Repaso1_2doParcial
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxId;
+
+        /// <summary>
+        /// Control LabelAge.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelAge;
+
+        /// <summary>
+        /// Control ButtonCalculateAge.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonCalculateAge;
 
         /// <summary>
         /// Control TextBoxCourse.
@@ -105,31 +141,40 @@ namespace Repaso1_2doParcial
         protected global::System.Web.UI.WebControls.Button ButtonAddUni;
 
         /// <summary>
-        /// Control DropDownListUni0.
+        /// Control TextBoxName2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListUni0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxName2;
 
         /// <summary>
-        /// Control TextBoxName0.
+        /// Control TextBoxLastName2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxName0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxLastName2;
 
         /// <summary>
-        /// Control TextBoxLastName0.
+        /// Control TextBoxAdress0.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxLastName0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxAdress0;
+
+        /// <summary>
+        /// Control CalendarBirth0.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar CalendarBirth0;
 
         /// <summary>
         /// Control TextBoxId0.
@@ -141,49 +186,31 @@ namespace Repaso1_2doParcial
         protected global::System.Web.UI.WebControls.TextBox TextBoxId0;
 
         /// <summary>
-        /// Control TextBoxCourse0.
+        /// Control LabelAgeProf.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxCourse0;
+        protected global::System.Web.UI.WebControls.Label LabelAgeProf;
 
         /// <summary>
-        /// Control TextBoxPTS0.
+        /// Control ButtonCalcularEdadProf.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxPTS0;
+        protected global::System.Web.UI.WebControls.Button ButtonCalcularEdadProf;
 
         /// <summary>
-        /// Control Button4.
+        /// Control TextBoxTitulo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
-
-        /// <summary>
-        /// Control GridView3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView3;
-
-        /// <summary>
-        /// Control Button5.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTitulo;
 
         /// <summary>
         /// Control Button6.
@@ -195,85 +222,94 @@ namespace Repaso1_2doParcial
         protected global::System.Web.UI.WebControls.Button Button6;
 
         /// <summary>
-        /// Control DropDownListUni1.
+        /// Control TextBoxName3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListUni1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxName3;
 
         /// <summary>
-        /// Control TextBoxName1.
+        /// Control TextBoxLastName3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxName1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxLastName3;
 
         /// <summary>
-        /// Control TextBoxLastName1.
+        /// Control TextBoxAdress1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxLastName1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxAdress1;
 
         /// <summary>
-        /// Control TextBoxId1.
+        /// Control TextBoxProfecion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxId1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxProfecion;
 
         /// <summary>
-        /// Control TextBoxCourse1.
+        /// Control CalendarBirth1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxCourse1;
+        protected global::System.Web.UI.WebControls.Calendar CalendarBirth1;
 
         /// <summary>
-        /// Control TextBoxPTS1.
+        /// Control TextBoxIGSS.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxPTS1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxIGSS;
 
         /// <summary>
-        /// Control Button7.
+        /// Control LabelAge1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button7;
+        protected global::System.Web.UI.WebControls.Label LabelAge1;
 
         /// <summary>
-        /// Control GridView4.
+        /// Control ButtonCalcularDateAmd.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView4;
+        protected global::System.Web.UI.WebControls.Button ButtonCalcularDateAmd;
 
         /// <summary>
-        /// Control Button8.
+        /// Control CalendarStart.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button8;
+        protected global::System.Web.UI.WebControls.Calendar CalendarStart;
+
+        /// <summary>
+        /// Control CalendarEnd.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar CalendarEnd;
 
         /// <summary>
         /// Control Button9.

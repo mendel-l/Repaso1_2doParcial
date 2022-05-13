@@ -9,9 +9,10 @@ namespace Repaso1_2doParcial
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int Address { get; set; }
+        public string Address { get; set; }
         public DateTime DateOfBirth { get; set; }
 
+        /*
         public int CalculateDate()
         {
             DateTime Hoy = DateTime.Now;
@@ -23,5 +24,7 @@ namespace Repaso1_2doParcial
             }
             return edadActual;
         }
+        */
+        
     }
 }
